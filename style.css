@@ -39,9 +39,42 @@ button {
   margin-bottom: 20px;
 }
 
+/*テキスト表示エリアのスタイル*/
 .display-area {
   margin-bottom: 20px;
   border-radius: 4px;
   font-size: 14px;
   padding: 3px 8px;
+}
+
+/*設問3のハイライト表示用のスタイル*/
+.display-area.highlight {
+  background-color: #ffff99; /* ハイライト色 */
+}
+
+/*行数カウント表示*/
+#row-count-display {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/*データテーブルのデザイン*/
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 3px double #ddd;
+  padding: 0 5px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
+/*要素を非表示にするためのクラス*/
+.hidden {
+  display: none !important;
 }
